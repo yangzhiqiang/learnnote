@@ -1,4 +1,5 @@
 swiftlearnnote
 ==============
 
-swift的学习笔记
+记录swift学习中的一些要点。
+
