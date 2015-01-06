@@ -10,3 +10,7 @@ swiftlearnnote
 3. Swift没有足够的Framework？<br/>这样说吧，所有Objective-C可以用的Framework，Swift都可以使用，按照Swift的语法格式，只不过稍有些变化，有规律可循。
 4. 以前很多的第三方Objective-C的库，Swift现在没有？<br/>Swift可以无缝的使用所有的由Objective-C完成的东西，甚至Swift工程中可以使用Objective-C写代码，Objective-C中可以嵌入Swift的代码。当然这里需要一些转化。具体参见[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
 5. Swift的一些资料<br/>语言规范：[The Swift Programming Language](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/Swift_Programming_Language/index.html#//apple_ref/doc/uid/TP40014097) <br/> Swift标准库：[Swift Standard Library Reference](https://developer.apple.com/library/prerelease/ios/documentation/General/Reference/SwiftStandardLibraryReference/index.html#//apple_ref/doc/uid/TP40014608) <br/> Swift和Objective-C的互相调用：[Using Swift with Cocoa and Objective-C](https://developer.apple.com/library/prerelease/ios/documentation/Swift/Conceptual/BuildingCocoaApps/index.html#//apple_ref/doc/uid/TP40014216)
+
+6. 向OC工程中直接添加Swift代码，出现dyld: Library not loaded libswiftCore.dylib问题
+  1. Build Setting 中设定Embedded Content Contains Swift Code为YES
+  2. Runpath Search Paths中，添加@executable_path/Frameworks
