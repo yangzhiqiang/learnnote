@@ -6,6 +6,6 @@
 
 ##代码
 
-*. [Argo](https://github.com/thoughtbot/Argo)：JSON解析库
-*. [Kingfisher](https://github.com/onevcat/Kingfisher) ：网络图片下载存储。
-*. [Moya](https://github.com/Moya/Moya) ：网络抽象层
+* [Argo](https://github.com/thoughtbot/Argo)：JSON解析库
+* [Kingfisher](https://github.com/onevcat/Kingfisher) ：网络图片下载存储。
+* [Moya](https://github.com/Moya/Moya) ：网络抽象层
